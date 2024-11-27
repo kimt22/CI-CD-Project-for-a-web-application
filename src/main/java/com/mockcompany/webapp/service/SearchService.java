@@ -70,6 +70,6 @@ public class SearchService {
         // }
         // // Return results
         // return itemList;
-        return List.of();
+        return Collections.emptyList();
     }
 }
